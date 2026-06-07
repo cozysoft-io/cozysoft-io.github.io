@@ -26,21 +26,32 @@
             }
 
             .name {
+                position: absolute;
+                top: 0.1em;
+                left: 50%;
+                transform: translateX(-50%);
+                margin: 0;
                 text-align: center;
-                font-size: 4em;
+                font-size: 8em;
             }
 
             .subtext {
-                max-width: 10em;
-                margin: 0 auto;
-                font-size: 2em;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 100%;
+                margin: 0;
+                font-size: 4em;
                 line-height: 2em;
                 text-align: center;
             }
 
             .copyright {
-                margin-top: auto;
-                padding-top: 4em;
+                position: absolute;
+                bottom: 0;
+                left: 50%;
+                transform: translateX(-50%);
                 padding-bottom: 1.5em;
                 font-size: 0.8em;
                 text-align: center;
@@ -53,9 +64,7 @@
             <span class="highlight">C</span>ozy<span class="highlight">s</span
             >oft
         </p>
-        <p class="subtext">software</p>
-        <p class="subtext">aligned with</p>
-        <p class="subtext">human well-being</p>
+        <p class="subtext">software<br />aligned with<br />human well-being</p>
         <footer class="copyright">© 2026 Cozysoft LLC</footer>
     </body>
 </html>
